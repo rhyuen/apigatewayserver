@@ -1,0 +1,11 @@
+{
+    "name": "royuone",
+    "alias": [
+        "royuone"
+    ],
+    "engines": {
+        "node": "^10"
+    },
+    "public": true,
+    "type": "static"
+}

@@ -1,0 +1,13 @@
+{
+    "rules": [                            
+        {"pathname": "/login", "method": ["POST"], "dest": "ryauth-alone.now.sh/login"},                
+        {"pathname": "/signup", "method": ["POST"], "dest": "ryauth-alone.now.sh/signup"},                
+        {"pathname": "/auth", "method": ["GET", "POST"], "dest": "ryauth-alone.now.sh/auth"},   
+        {"pathname": "/user/**", "method": ["GET"], "dest": "ryauth-alone.now.sh/user"},
+        {"pathname": "/words/**", "method": ["GET", "POST"], "dest": "rywords.now.sh"},
+        {"pathname": "/quotes", "method": ["GET"], "dest": "ryquotes.now.sh/"},
+        {"pathname": "/quotes/**", "method": ["GET", "POST"], "dest": "ryquotes.now.sh/"},
+        {"pathname": "/author/**", "method": ["GET", "POST"], "dest": "ryquotes.now.sh/author/"},
+        {"pathname": "/**", "method": ["GET"], "dest": "royuone.now.sh"}
+    ]
+}
